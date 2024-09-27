@@ -5,7 +5,7 @@
       "Web app",
       "Backend"
     ],
-    "icon": "",
-    "website": "https://stricjs.netlify.app//logo.svg",
+    "icon": "https://stricjs.netlify.app//logo.svg",
     "publisher": "Martin Kang"
   }
+
