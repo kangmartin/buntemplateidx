@@ -5,16 +5,19 @@
   bootstrap = ''
 
     mkdir "$out"
-    mkdir "$out/src"
     mkdir -p "$out/.idx/"
     cp -rf ${./dev.nix} "$out/.idx/dev.nix"
-    shopt -s dotglob; cp -r ${index.ts}/* "$out"
-    shopt -s dotglob; cp -r ${main.routes.ts}/* "$out/src/"
+    shopt -s dotglob; cp -r ${./dev}/* "$out"
+    
+    mkdir -p "$out/src"
+    
     bun init
-    bun i @stricjs/app @stricjs/utils
+    bun add @stricjs/router @stricjs/utils
     chmod -R +w "$out"
     chmod +rwx "$out/index.ts"
-    chmod +rwx "$out/src/main.routes.ts"
+    chmod +rwx "$out/main.routes.ts"
+    
+    cp ${./main.routes.ts} "$out/src/main.routes.ts"
     
   '';
 }
