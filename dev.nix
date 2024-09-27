@@ -23,7 +23,7 @@
       enable = true;
       previews = {
         web = {
-          command = ["bun" "run" "index.ts"];
+          command = ["bun" "--watch" "run" "index.ts"];
           manager = "web";
         };
       };
