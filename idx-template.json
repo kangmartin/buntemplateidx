@@ -1,0 +1,11 @@
+{
+    "name": "Bun Hono Starter",
+    "description": "Start a simple backend with Hono using Bun runtime",
+    "categories": [
+      "Web app",
+      "Backend"
+    ],
+    "icon": "",
+    "website": "https://bun.sh/logo-square.png",
+    "publisher": "Martin Kang"
+  }
