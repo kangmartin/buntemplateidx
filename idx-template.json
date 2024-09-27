@@ -1,11 +1,13 @@
 {
-    "name": "Bun Hono Starter",
-    "description": "Start a simple backend with Hono using Bun runtime",
+    "name": "Hono",
+    "description": "Fast, lightweight, built on Web Standards. Support for any JavaScript runtime.",
     "categories": [
       "Web app",
       "Backend"
     ],
-    "icon": "https://stricjs.netlify.app//logo.svg",
-    "publisher": "Martin Kang"
+    "icon": "",
+    "website": "https://hono.dev/",
+    "publisher": "David East",
+    "params": [
+    ]
   }
-
