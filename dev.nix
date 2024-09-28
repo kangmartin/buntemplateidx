@@ -23,7 +23,7 @@
       enable = true;
       previews = {
         web = {
-          command = ["bun" "server.ts"];
+          command = ["bun" "--port" "8080" server.ts"];
           manager = "web";
         };
       };
